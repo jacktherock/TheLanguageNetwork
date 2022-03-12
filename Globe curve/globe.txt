@@ -1,0 +1,20 @@
+India/Coordinates
+20.5937° N, 78.9629° E
+
+France/Coordinates
+46.2276° N, 2.2137° E
+
+China/Coordinates
+35.8617° N, 104.1954° E
+
+Japan/Coordinates
+36.2048° N, 138.2529° E
+
+South Korea/Coordinates
+35.9078° N, 127.7669° E
+
+Spain/Coordinates
+40.4637° N, 3.7492° W
+
+Germany/Coordinates
+51.1657° N, 10.4515° E

@@ -1,0 +1,40 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+    background-color: #050d22;
+}
+
+.amcharts-myline path {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 500%;
+    stroke-dasharray: 10rem;
+    stroke-dashoffset: 0;
+    -webkit-animation: am-draw 60s;
+    animation: am-draw 60s;
+}
+
+@-webkit-keyframes am-draw {
+    0% {
+        stroke-dashoffset: 500%;
+    }
+
+    100% {
+        stroke-dashoffset: 0%;
+    }
+}
+
+@keyframes am-draw {
+    0% {
+        stroke-dashoffset: 500%;
+    }
+
+    100% {
+        stroke-dashoffset: 0%;
+    }
+}

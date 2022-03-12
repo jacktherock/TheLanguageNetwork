@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+
+nav {
+    height: 90px;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(163, 163, 163, 0.35);
+}
+
+/* Search Input */
+form {
+    background-color: #8037DD;
+    border-radius: 15px;
+    width: 650px;
+}
+
+input[type="text"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+input[type="text"]::placeholder {
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input.nosubmit {
+    width: 630px;
+    display: block;
+    padding: 16px 40px 16px 40px;
+    background: transparent url("./src/img/search-icon.svg") no-repeat right 13px;
+}
+
+/* Alphabets */
+.alpha {
+    background-color: #E4E4E4;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #701ED8;
+}
+
+.alpha:hover{
+    background-color: #701ED8;
+    color: #E4E4E4;
+}
+
+.alpha:active{
+    background-color: #701ED8;
+    color: #E4E4E4;
+}
+
+.alpha:focus{
+    background-color: #701ED8;
+    color: #E4E4E4;
+}
+
+.main-mean{
+    display: flex;
+    /* display: none; */
+}
+
+.mean span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b00ad;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dash{
+    border-top: 2px solid #701ED8;
+    border-collapse: collapse;
+    margin: 70px 0px 50px 120px;
+    /* display: none; */
+}
+
+.mean-dash{
+    border-top: 2px solid #904ce9;
+    border-collapse: collapse;
+    margin: 7px 0px 40px 0px;
+}
+
+.mean-dash-sub{
+    border-top: 4px solid #904ce9;
+    border-collapse: collapse;
+    margin: 6px 0px 40px 0px;
+}
+
+.card{
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    width: 28rem;
+}

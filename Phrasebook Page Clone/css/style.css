@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.web-img {
+    margin-left: 70px;
+}
+
+.nav-tag {
+    margin-top: 43px;
+}
+
+.trialClass {
+    margin-left: 565px;
+}
+
+.trialClass-sub {
+    background-color: #00cfb7;
+    color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.trialClass-sub:hover {
+    color: white;
+    background-color: #00c2ab;
+}
+
+.main {
+    background-color: #f4f8fb;
+    margin-top: 75px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.resourse-e {
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 54px;
+}
+
+.banner {
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.resourse {
+    display: flex;
+    margin-top: 73px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.resourse-sub {
+    margin-top: 145px;
+}
+
+.section-three {
+    margin-top: 6rem;
+}
+
+.flag {
+    margin-top: 10rem;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    margin-right: 500px;
+    /* margin-top: 28px; */
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 40px;
+    min-width: 550px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 4px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.my-text a:hover {
+    color: #00cfb7 !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: red;
+}
+
+.sub-content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content {
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+
+.my-text a {
+    color: gray !important;
+    font-size: small;
+}
+
+.last {
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+
+.contact {
+    background-color: #44c9c0;
+    border-radius: 10px;
+    font-size: medium;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contact:hover{
+    background-color: #35eed8;
+}
+
+.foot {
+    font-size: smaller;
+    width: 250px;
+}
+
+.text-blue {
+    color: #00cfb7;
+}
+
+.foot-sub a {
+    font-size: small;
+    font-weight: bold;
+    color: #473f34;
+}
+
+.foot-sub a:hover {
+    color: #473f34;
+}
+
+li {
+    list-style: none;
+}
+
+.foot-word {
+    font-size: small;
+    color: #473f34;
+    font-weight: 600;
+}
+
+.foot-word a {
+    color: #473f34;
+}
+
+.foot-word a:hover {
+    color: #473f34;
+}
+
+.cp {
+    margin-left: 70px;
+    font-size: small;
+}
+
+.tc {
+    margin-left: 30px;
+    font-size: small;
+}
+
+.tc a {
+    color: #473f34;
+}
+
+.tc a:hover {
+    color: #473f34;
+}
+
+box-icon {
+    color: #00c2ab;
+}
